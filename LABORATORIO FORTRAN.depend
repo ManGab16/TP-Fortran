@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1685900033 source:c:\users\mariu\onedrive\escritorio\programacion\utn 2023\programacion-1\trabajo final lab 1\laboratorio fortran\menu_lab.c
+
+1685899141 source:c:\users\mariu\onedrive\escritorio\programacion\utn 2023\programacion-1\trabajo final lab 1\laboratorio fortran\st_laboratorios.c
+
+1685899185 source:c:\users\mariu\onedrive\escritorio\programacion\utn 2023\programacion-1\trabajo final lab 1\laboratorio fortran\st_paciente.c
+
+1685899301 source:c:\users\mariu\onedrive\escritorio\programacion\utn 2023\programacion-1\trabajo final lab 1\laboratorio fortran\st_practicas.c
+
+1685918252 source:c:\users\mariu\onedrive\escritorio\programacion\utn 2023\programacion-1\trabajo final lab 1\laboratorio fortran\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1685900291 c:\users\mariu\onedrive\escritorio\programacion\utn 2023\programacion-1\trabajo final lab 1\laboratorio fortran\gotoxy.h
+
