@@ -1,17 +1,34 @@
-#ifndef PACIENTE_H_INCLUDED
-#define PACIENTE_H_INCLUDED
+#ifndef PACIENTES_H_INCLUDED
+#define PACIENTES_H_INCLUDED
 
 typedef struct
 {
-    int idPaciente;
-    char nombre[30];
-    char apellido[30];
-    int dni;
-    char movil[12];
-    stObrasocial obSocial[20];
-    int eliminado;
+int idPaciente; /// campo único y autoincremental
+char nombre[30];
+char apellido[30];
+char dni[10];
+char movil[12];
+int eliminado; /// 0 si está activo ó 1 si está eliminado
+}stPaciente;
+
+///--------PROTOTIPADO-------
+
+void altaPaciente(char archivo[]);
+
+int validacion (char archivo[], char dni[]);
+
+int retornar_ultimo_id(char archivo[]);
+
+void bajaPaciente(char archivo[], char dni[]);
 
 
-}StPaciente;
+/** En Main: 
 
-#endif // PACIENTE_H_INCLUDED
+    char archivo[]="pacientes.dat"; /// ----> "pacientes.dat"
+    altaPaciente(archivo);
+
+    return 0;
+
+**/
+
+#endif // PACIENTES_H_INCLUDED
